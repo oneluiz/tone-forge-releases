@@ -1,0 +1,15 @@
+{
+  "version": "0.1.15",
+  "notes": "Tone Forge 0.1.15",
+  "pub_date": "2026-09-10T06:55:28.654Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.15/Tone%20Forge_0.1.15_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS1lJOTRNd25tY3RmV1BwRmg1QnRaYzFnZlVMTS9SbjczUVA0ckRrTlNXdlpENTY3MnpRSXpvMUVSMnpiN2svS2tibTlOdi9Jd1J2ZFpUcVgxOWxnWUQvemhzb1ZJK2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxODU4CWZpbGU6VG9uZSBGb3JnZV8wLjEuMTVfeDY0LXNldHVwLmV4ZQo0cjJWV29RdjFHb2hYazAyMm5zQ1AwV25tN2R4eWJrbkhQQ2VGRDFJSDQ5R2Uva3NvbjJUMmRLeTkvdVlIQUFPTllJTWhKTWF5bkp3SmRoTUU5dmJDdz09Cg=="
+    },
+    "darwin-aarch64": {
+      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.15/Tone%20Forge.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS1lJOTRNd25tY2x2THUzVEF2elJRM3c5Zm5oOWVjWTRZV2ZjbWxKbDMzNHRybVI1ZklGczU4OFZrRkRZN1RBeVh2TFlMVWovdjM5RmY5b1JEY1dBLzgyRUNlTlBrWkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDIxMjIwCWZpbGU6VG9uZSBGb3JnZS5hcHAudGFyLmd6CjZGbVluT1IwaUdLNVhyWllDQiswNXIzZTJabHF1Yk1jeEJlbW00T25UMk15VXFBaTR5VkVxZUpEdEJ1bUZuN2VpRklnTWlYcFZRR2NnQlNjVmJRWUF3PT0K"
+    }
+  }
+}
