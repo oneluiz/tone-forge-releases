@@ -1,15 +1,15 @@
 {
-  "version": "0.1.18",
-  "notes": "Tone Forge 0.1.18",
-  "pub_date": "2026-09-10T22:40:59.708Z",
+  "version": "0.1.19",
+  "notes": "Tone Forge 0.1.19",
+  "pub_date": "2026-09-10T22:57:55.760Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.18/Tone%20Forge_0.1.18_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS1lJOTRNd25tY3FLbk90U25ZdElhVThDWkVwVXhKZ3ltUUVPU2F1WkNVNGQwSjZGK3lYb0ZXd25Rd3pCRW5hVTJSd3hEcVNDbDk1bGp2MHczcFozbzYveUIvblVTbGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDgwMDI5CWZpbGU6VG9uZSBGb3JnZV8wLjEuMThfeDY0LXNldHVwLmV4ZQpOa2pmZUtVMVBhYk1rVHV3OEFhWTNlYUVRR3EwaFQxNDRkUGJ3OVRLdGFlMDQ3a1cxcE45eXFWemd5dEpweUNLZFV6V1V3MVFTa1FTZmQwMUZROVZDdz09Cg=="
+      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.19/Tone%20Forge_0.1.19_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS1lJOTRNd25tY25oTVZtZ3pZcnFIa05aaXB1elZpalVnTFVZNy9sckZpVlowMkpvcnZWV0w1Yk5GNXJld3hwVmFmVGtvcnhBRGs2UW9pOWo3SjBzL1UxVmJxeGowMHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDgxMDUzCWZpbGU6VG9uZSBGb3JnZV8wLjEuMTlfeDY0LXNldHVwLmV4ZQpDa2NKK2ZpTGxVT01ua3FNTGJLL1hmNjdRcjd2TTUvTUJYL0xjN0RSNnlISHUzYWthcGNaODRRdHNuYjRBa1NTSWNrc1lBQkFwRVdFbWNBVmE0SGpEUT09Cg=="
     },
     "darwin-aarch64": {
-      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.18/Tone%20Forge.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS1lJOTRNd25tY2ozaWwyRU1QcHZobk1mNWVHWFpuRVMzQ0dmSlBHYXZjS3JURitxcUMvQ0lqdS8vVVh5L0hQZG00dC85Y1hyd0VpR1NCRmh4MTNidm4vakJzb1gvelFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDc5NDg4CWZpbGU6VG9uZSBGb3JnZS5hcHAudGFyLmd6CnY2VXJiWXgvdHBxOWhlb01tdmhIKzM3VUU4M1NUOHFETnVvUVEyb09acHJuQTRndk5rRktTc1draDhBUU9lU0sya1JKQlVIWWNzeWpOeWNrNnB3ckJRPT0K"
+      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.19/Tone%20Forge.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS1lJOTRNd25tY3NKSTBIREVzTjY2NjhWMmEvUFdGaDB3dElZdWpRVldlTDdtOUI3RkN6dlVCczNDODdNKzF4cVVVNFE5NjhlSDlCYXgwWkN6RTkxdE9RdUVJclNzdkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDgwNTkwCWZpbGU6VG9uZSBGb3JnZS5hcHAudGFyLmd6ClRtejlHMkVSVk02aUNTcnlxM1FxUEJIakR6Mzd0eG5VVzlXVjk5RldDekJmTWlhdm1mSEw1THhYcVBxMzJRUTFaN0hZdXJEVWdRQkJyNFZVTU0zMEFnPT0K"
     }
   }
 }
