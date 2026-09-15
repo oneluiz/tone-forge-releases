@@ -1,15 +1,15 @@
 {
-  "version": "0.1.32",
-  "notes": "Tone Lab AI 0.1.32",
-  "pub_date": "2026-09-15T04:18:37.424Z",
+  "version": "0.1.33",
+  "notes": "Tone Lab AI 0.1.33",
+  "pub_date": "2026-09-15T04:34:14.896Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.32/Tone%20Lab%20AI_0.1.32_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVlM2VlVoOWpzTVQyeHpSenZKNGpjT01oc2MvMlVkVlFHYmFHaXEwcDUxVXZqVmFiMlo1cjY3NWplVlc0cExkWTQzU2hRcnlXckVVaENBT0t5Ym5ldE93K1NLaE1xZlFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDQ1ODc1CWZpbGU6VG9uZSBMYWIgQUlfMC4xLjMyX3g2NC1zZXR1cC5leGUKTzk5b2MzakU0NzJ1anJ4N0grcEtSckVnQzlZdTZwYXcyUGVjT1BUVXF0NnNjUy9tU0VpK21kUlg0ZGNqcUgvbTZ5M1cybzVZT3VvRmJ2QWdtcTNBREE9PQo="
+      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.33/Tone%20Lab%20AI_0.1.33_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVlM2VlVoOWpzTWF6RkduVkltOVpMTU5JbFFIUjRQUFdPdkFCK2ZOR2ZjUGVENVMwc0xSdEFpYUViV3ArejFwMjgxMFp3NDV0ZXY5anB3M1NqcC9nY3FIRmtLdnNEckFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDQ2ODIzCWZpbGU6VG9uZSBMYWIgQUlfMC4xLjMzX3g2NC1zZXR1cC5leGUKanlVVm9kcVZCaGl1ODhKcHRuZXN4alBsRE1UVlhqeFhXdkFxZjQzVkFwU1J2L0JpQytVQkNOMit4LzN2QTFNTGNySUhnMUNhWkNERWlRdGVNVndJQ2c9PQo="
     },
     "darwin-aarch64": {
-      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.32/Tone%20Lab%20AI.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVlM2VlVoOWpzTVc5WERRbEY2NG9MbHFLSlJvMkNqMUR5ZTMvek9CMUJuN0N1TVh3TkZhREdESGc3UkdlOWVRMTlVYWxXc2k4bGJEV0JnSTNvRXgyMHBpbklrR3lMalFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDQ1NDQyCWZpbGU6VG9uZSBMYWIgQUkuYXBwLnRhci5negoxcUtkRk1kekxTeVFDKzBrSHBDWFF3cWhrQjUwU0tEUlUzZlNPOTcrL094VUpEb3hhRTJMRVB2L3UxS1hyWlNQZjI4SHdFZWpQM21aRHc5QWRHQmNCQT09Cg=="
+      "url": "https://raw.githubusercontent.com/oneluiz/tone-forge-releases/main/releases/0.1.33/Tone%20Lab%20AI.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVlM2VlVoOWpzTWZyUVgzY21yaWpDVGpjTk5HK1RGTTFYZHpFd3FsWTREK0JGS1pvZXJSaGxDcGN4Z3F1a2l4ckVWODJNKzE3d2czeDZEcW9NMzArVTVIcGlJcE9GR1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDQ2MjE3CWZpbGU6VG9uZSBMYWIgQUkuYXBwLnRhci5negpBSThQSjBFNzlEYVB2bFFQbDJRNk1MbFBxa0VCMmo2Y0ZGai9weHd0ZTR5bDNkVjJ3WVk3OU9SYWZ6Z2lLazZBbjFQZFNQbm16dStFRnRwVVROdnJEZz09Cg=="
     }
   }
 }
