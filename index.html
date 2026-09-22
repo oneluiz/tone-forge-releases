@@ -18,24 +18,45 @@
         <a class="header-link" href="#descargas">DESCARGAS ↘</a>
       </header>
 
-      <section class="hero" id="inicio">
-        <div class="hero-copy">
-          <p class="eyebrow">MÓDULO 01 / TONE INTELLIGENCE</p>
-          <h1>DISEÑA TU<br /><em>TONO LINE 6</em><br />CON IA.</h1>
-          <p>Describe el sonido que buscas. Tone Lab AI crea un preset nativo, propone snapshots y te permite seguir afinándolo en la conversación.</p>
-          <div class="device-list"><span>HELIX</span><span>POD GO</span><span>HX STOMP</span></div>
-          <a class="hero-action" href="#descargas">OBTENER TONE LAB <b>↓</b></a>
+      <section class="hero" id="inicio" aria-roledescription="carrusel" aria-label="Módulos de Tone Lab AI">
+        <div class="slide-track">
+          <article class="hero-slide" aria-label="Módulo 1 de 2: Tone Intelligence">
+            <div class="hero-copy">
+              <p class="eyebrow">MÓDULO 01 / TONE INTELLIGENCE</p>
+              <h1>DISEÑA TU<br /><em>TONO LINE 6</em><br />CON IA.</h1>
+              <p>Describe el sonido que buscas. Tone Lab AI crea un preset nativo, propone snapshots y te permite seguir afinándolo en la conversación.</p>
+              <div class="device-list"><span>HELIX</span><span>POD GO</span><span>HX STOMP</span></div>
+              <a class="hero-action" href="#descargas">OBTENER TONE LAB <b>↓</b></a>
+            </div>
+            <div class="signal-rack" aria-label="Cadena de señal de preset Line 6 generada por IA">
+              <div class="rack-header"><span>PRESET ENGINE</span><span>OUTPUT: .HLX</span></div>
+              <div class="rack-module input"><small>01 / INPUT</small><strong>GUITAR IN</strong><i></i></div>
+              <div class="rack-route"><span></span><b>ANALYZE</b><span></span></div>
+              <div class="rack-module ai"><small>02 / AI MODEL</small><strong>TONE<br />PROFILE</strong><i>AI</i></div>
+              <div class="rack-route"><span></span><b>BUILD</b><span></span></div>
+              <div class="rack-module output"><small>03 / LINE 6</small><strong>PRESET<br />READY</strong><i>✓</i></div>
+              <div class="rack-footer"><span>LATENCY 0.0MS</span><span>LOCAL PROJECT</span></div>
+            </div>
+          </article>
+          <article class="hero-slide" aria-label="Módulo 2 de 2: Stem Studio">
+            <div class="hero-copy">
+              <p class="eyebrow">MÓDULO 02 / STEM STUDIO</p>
+              <h1>SEPARA.<br /><em>ORDENA.</em><br />TOCA.</h1>
+              <p>Convierte una canción en stems, arma tus Set Lists y deja listo el orden del show sin duplicar audio ni salir de tu biblioteca.</p>
+              <div class="device-list"><span>STEMS LOCALES</span><span>SET LISTS</span><span>BÚSQUEDA</span></div>
+              <a class="hero-action" href="#descargas">OBTENER TONE LAB <b>↓</b></a>
+            </div>
+            <div class="signal-rack stem-rack" aria-label="Mezcla de stems y Set List">
+              <div class="rack-header"><span>STEM STUDIO</span><span>SET LIST / 04</span></div>
+              <div class="rack-module stem vocal"><small>01 / STEM</small><strong>VOCALS</strong><i>V</i></div>
+              <div class="rack-module stem guitar"><small>02 / STEM</small><strong>GUITARS</strong><i>G</i></div>
+              <div class="rack-module stem drums"><small>03 / STEM</small><strong>DRUMS</strong><i>D</i></div>
+              <div class="rack-module stem bass"><small>04 / STEM</small><strong>BASS</strong><i>B</i></div>
+              <div class="rack-footer"><span>4 STEMS ACTIVE</span><span>SHOW ORDER READY</span></div>
+            </div>
+          </article>
         </div>
-        <div class="signal-rack" aria-label="Cadena de señal de preset Line 6 generada por IA">
-          <div class="rack-header"><span>PRESET ENGINE</span><span>OUTPUT: .HLX</span></div>
-          <div class="rack-module input"><small>01 / INPUT</small><strong>GUITAR IN</strong><i></i></div>
-          <div class="rack-route"><span></span><b>ANALYZE</b><span></span></div>
-          <div class="rack-module ai"><small>02 / AI MODEL</small><strong>TONE<br />PROFILE</strong><i>AI</i></div>
-          <div class="rack-route"><span></span><b>BUILD</b><span></span></div>
-          <div class="rack-module output"><small>03 / LINE 6</small><strong>PRESET<br />READY</strong><i>✓</i></div>
-          <div class="rack-footer"><span>LATENCY 0.0MS</span><span>LOCAL PROJECT</span></div>
-        </div>
-        <div class="hero-index"><span>01</span><span>GENERAR</span><span>REFINAR</span><span>EXPORTAR</span></div>
+        <div class="slide-controls" aria-label="Navegación de módulos"><button type="button" class="slide-control active" data-slide="0" aria-label="Mostrar Tone Intelligence">01 <span>TONE INTELLIGENCE</span></button><button type="button" class="slide-control" data-slide="1" aria-label="Mostrar Stem Studio">02 <span>STEM STUDIO</span></button></div>
       </section>
 
       <section class="feature-grid" aria-label="Funciones de Tone Lab AI">
@@ -63,6 +84,6 @@
       </section>
     </main>
     <footer><span>TONE LAB AI / DESKTOP STUDIO</span><span>LINE 6 PRESET WORKFLOW</span><span data-version>v0.1.37</span></footer>
-    <script src="app.js?v=3"></script>
+    <script src="app.js?v=4"></script>
   </body>
 </html>

@@ -23,3 +23,37 @@ async function loadRelease() {
 }
 
 loadRelease()
+
+const hero = document.querySelector('.hero')
+const slideTrack = document.querySelector('.slide-track')
+const slideControls = document.querySelectorAll('.slide-control')
+let activeSlide = 0
+let slideTimer
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+function showSlide(index) {
+  activeSlide = index
+  slideTrack.style.transform = `translateX(-${activeSlide * 50}%)`
+  slideControls.forEach((control, controlIndex) => {
+    const isActive = controlIndex === activeSlide
+    control.classList.toggle('active', isActive)
+    control.setAttribute('aria-current', isActive ? 'true' : 'false')
+  })
+}
+
+function startSlideTimer() {
+  if (reduceMotion) return
+  window.clearInterval(slideTimer)
+  slideTimer = window.setInterval(() => showSlide((activeSlide + 1) % slideControls.length), 7000)
+}
+
+slideControls.forEach((control) => control.addEventListener('click', () => {
+  showSlide(Number(control.dataset.slide))
+  startSlideTimer()
+}))
+
+hero.addEventListener('mouseenter', () => window.clearInterval(slideTimer))
+hero.addEventListener('mouseleave', startSlideTimer)
+hero.addEventListener('focusin', () => window.clearInterval(slideTimer))
+hero.addEventListener('focusout', startSlideTimer)
+startSlideTimer()
