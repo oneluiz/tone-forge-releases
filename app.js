@@ -11,7 +11,7 @@ async function loadRelease() {
     const version = `v${release.version}`
     document.querySelectorAll('[data-version]').forEach((element) => { element.textContent = version })
     document.querySelectorAll('[data-date]').forEach((element) => {
-      element.textContent = new Intl.DateTimeFormat('es-MX', { day: '2-digit', month: 'short', year: 'numeric' }).format(new Date(release.pub_date)).toUpperCase()
+      element.textContent = new Intl.DateTimeFormat('es-MX', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(release.pub_date)).toUpperCase()
     })
     Object.entries(platformLinks).forEach(([name, platform]) => {
       const url = release.platforms?.[platform]?.url
