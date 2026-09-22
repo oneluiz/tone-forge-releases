@@ -3,74 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Descarga Tone Lab AI para crear, organizar y practicar tus mezclas localmente." />
-    <title>Tone Lab AI | Descargas</title>
+    <meta name="description" content="Crea presets Line 6 con IA, separa stems y prepara tu directo con Tone Lab AI." />
+    <title>Tone Lab AI | Presets Line 6 y descargas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <header class="site-header">
-        <a class="brand" href="#inicio" aria-label="Tone Lab AI, inicio">
-          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 18h5l3-9 5 15 3-8h8" /><path d="M4 5v22h24" /></svg>
-          <span>TONE LAB <i>AI</i></span>
-        </a>
-        <a class="header-link" href="#cambios">Novedades</a>
+        <a class="brand" href="#inicio" aria-label="Tone Lab AI, inicio"><span class="brand-mark">TL</span><span>TONE LAB <i>AI</i></span></a>
+        <div class="system-status"><b></b> SISTEMA LOCAL · ONLINE</div>
+        <a class="header-link" href="#descargas">DESCARGAS ↘</a>
       </header>
 
       <section class="hero" id="inicio">
-        <p class="kicker"><span></span> Aplicación de escritorio</p>
-        <h1>Tu música,<br /><em>en tus manos.</em></h1>
-        <p class="hero-copy">Separa stems, organiza tu repertorio y practica cada parte sin salir de tu equipo.</p>
-        <div class="signal-line" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-        <div class="release-meta">
-          <div><span>VERSIÓN ACTUAL</span><strong data-version>v0.1.37</strong></div>
-          <div><span>PUBLICADA</span><strong data-date>22 SEP 2026</strong></div>
-          <div><span>ACTUALIZACIONES</span><strong>FIRMADAS</strong></div>
+        <div class="hero-copy">
+          <p class="eyebrow">MÓDULO 01 / TONE INTELLIGENCE</p>
+          <h1>DISEÑA TU<br /><em>TONO LINE 6</em><br />CON IA.</h1>
+          <p>Describe el sonido que buscas. Tone Lab AI crea un preset nativo, propone snapshots y te permite seguir afinándolo en la conversación.</p>
+          <div class="device-list"><span>HELIX</span><span>POD GO</span><span>HX STOMP</span></div>
+          <a class="hero-action" href="#descargas">OBTENER TONE LAB <b>↓</b></a>
         </div>
+        <div class="signal-rack" aria-label="Cadena de señal de preset Line 6 generada por IA">
+          <div class="rack-header"><span>PRESET ENGINE</span><span>OUTPUT: .HLX</span></div>
+          <div class="rack-module input"><small>01 / INPUT</small><strong>GUITAR IN</strong><i></i></div>
+          <div class="rack-route"><span></span><b>ANALYZE</b><span></span></div>
+          <div class="rack-module ai"><small>02 / AI MODEL</small><strong>TONE<br />PROFILE</strong><i>AI</i></div>
+          <div class="rack-route"><span></span><b>BUILD</b><span></span></div>
+          <div class="rack-module output"><small>03 / LINE 6</small><strong>PRESET<br />READY</strong><i>✓</i></div>
+          <div class="rack-footer"><span>LATENCY 0.0MS</span><span>LOCAL PROJECT</span></div>
+        </div>
+        <div class="hero-index"><span>01</span><span>GENERAR</span><span>REFINAR</span><span>EXPORTAR</span></div>
       </section>
 
-      <section class="downloads" aria-labelledby="downloads-title">
-        <div class="section-heading">
-          <p class="kicker"><span></span> Descargas</p>
-          <h2 id="downloads-title">Elige tu equipo.</h2>
-        </div>
-        <div class="download-grid">
-          <a class="download-card primary" data-download="windows" href="releases/0.1.37/Tone%20Lab%20AI_0.1.37_x64-setup.exe">
-            <div class="platform-mark windows" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-            <div><span>WINDOWS 10 / 11</span><strong>Descargar para Windows</strong><small>Instalador x64 · Actualizaciones automáticas</small></div>
-            <b aria-hidden="true">↓</b>
-          </a>
-          <a class="download-card" data-download="mac" href="releases/0.1.37/Tone%20Lab%20AI.app.tar.gz">
-            <div class="platform-mark apple" aria-hidden="true">●</div>
-            <div><span>MACOS APPLE SILICON</span><strong>Descargar para Mac</strong><small>Para chips M1, M2, M3 y M4</small></div>
-            <b aria-hidden="true">↓</b>
-          </a>
-        </div>
-        <p class="download-note">Las descargas se publican con firma de actualización. Tu audio y tus proyectos permanecen en tu equipo.</p>
+      <section class="feature-grid" aria-label="Funciones de Tone Lab AI">
+        <article><span>01</span><h2>Háblale a<br />tu amplificador.</h2><p>Parte de una canción, una guitarra o una intención. La IA transforma tu referencia en una cadena de señal editable.</p></article>
+        <article><span>02</span><h2>Itera sin<br />empezar de cero.</h2><p>Cada preset conserva su sesión. Pide menos ganancia, otro carácter o un solo más presente y guarda sus versiones.</p></article>
+        <article><span>03</span><h2>Exporta<br />a tu Line 6.</h2><p>Genera archivos nativos `.hlx` validados para abrirlos en tu editor Line 6 compatible.</p></article>
       </section>
 
       <section class="changes" id="cambios" aria-labelledby="changes-title">
-        <div class="section-heading">
-          <p class="kicker"><span></span> Novedades de la versión actual</p>
-          <h2 id="changes-title">Listas que siguen<br />tu directo.</h2>
-        </div>
+        <div><p class="eyebrow">MÓDULO 02 / RELEASE NOTES</p><h2 id="changes-title">LO ÚLTIMO,<br /><em>SIN RUIDO.</em></h2></div>
         <ol class="change-list">
-          <li><span>01</span><div><h3>Una sola biblioteca de Stems</h3><p>Mezclas y Set Lists ahora se entienden como partes de la misma vista, con navegación directa y búsqueda en cada colección.</p></div></li>
-          <li><span>02</span><div><h3>Set Lists listos para el escenario</h3><p>Crea listas desde un modal, añade las canciones que necesites y cambia el orden con un toque.</p></div></li>
-          <li><span>03</span><div><h3>Nombres que reconoces al instante</h3><p>Renombra cada mezcla sin modificar los archivos de audio ni perder su relación con otras listas.</p></div></li>
+          <li><span>01</span><div><h3>Stems y Set Lists, una sola biblioteca</h3><p>Navega entre mezclas y listas, busca en cada colección y prepara el orden de tu repertorio.</p></div></li>
+          <li><span>02</span><div><h3>Set Lists listos para el escenario</h3><p>Crea listas desde un modal, añade las canciones necesarias y ajusta su orden antes de tocar.</p></div></li>
+          <li><span>03</span><div><h3>Mezclas con nombre propio</h3><p>Renombra cada mezcla de Stems sin tocar los archivos de audio ni romper su relación con otras listas.</p></div></li>
         </ol>
       </section>
 
-      <section class="closing">
-        <p class="kicker"><span></span> Todo local</p>
-        <h2>Menos preparación.<br /><em>Más tocar.</em></h2>
-        <a class="download-button" data-download="windows" href="releases/0.1.37/Tone%20Lab%20AI_0.1.37_x64-setup.exe">Descargar Tone Lab AI <span>↓</span></a>
+      <section class="downloads" id="descargas" aria-labelledby="downloads-title">
+        <div class="download-heading"><p class="eyebrow">MÓDULO 03 / INSTALADOR</p><h2 id="downloads-title">ENTRA AL<br /><em>ESTUDIO.</em></h2><p>Todo ocurre en tu equipo: presets, sesiones, stems y proyectos. Sin una biblioteca en la nube que perseguir.</p></div>
+        <div class="download-options">
+          <a class="download-card primary" data-download="windows" href="releases/0.1.37/Tone%20Lab%20AI_0.1.37_x64-setup.exe"><span>WINDOWS 10 / 11</span><strong>DESCARGAR<br />PARA WINDOWS</strong><small>INSTALADOR X64 · FIRMADO</small><b>↓</b></a>
+          <a class="download-card" data-download="mac" href="releases/0.1.37/Tone%20Lab%20AI.app.tar.gz"><span>MACOS APPLE SILICON</span><strong>DESCARGAR<br />PARA MAC</strong><small>CHIPS M1, M2, M3 Y M4</small><b>↓</b></a>
+          <div class="release-data"><div><span>VERSIÓN</span><strong data-version>v0.1.37</strong></div><div><span>PUBLICADA</span><strong data-date>22 SEP 2026</strong></div><div><span>ACTUALIZACIONES</span><strong>FIRMADAS</strong></div></div>
+        </div>
       </section>
     </main>
-    <footer><span>TON E LAB AI</span><span>RELEASES · <span data-version>v0.1.37</span></span></footer>
-    <script src="app.js?v=2"></script>
+    <footer><span>TONE LAB AI / DESKTOP STUDIO</span><span>LINE 6 PRESET WORKFLOW</span><span data-version>v0.1.37</span></footer>
+    <script src="app.js?v=3"></script>
   </body>
 </html>
